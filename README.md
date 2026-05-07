@@ -118,8 +118,8 @@ python3 -m http.server 3000
 | ✉️ Email | [rajvardhancoder@gmail.com](mailto:rajvardhancoder@gmail.com) |
 | 📞 Phone | [+91 97702 89936](tel:+919770289936) |
 | 💻 GitHub | [github.com/singhrajvardhan](https://github.com/singhrajvardhan) |
-| 🔗 LinkedIn | [linkedin.com/in/rajvardhan](https://linkedin.com/in/rajvardhan) |
-| 📸 Instagram | [@singhrajvardhan](https://instagram.com/singhrajvardhan) |
+| 🔗 LinkedIn | [linkedin.com/in/rajvardhan-singh-badgujar](https://linkedin.com/in/rajvardhan-singh-badgujar) |
+| 📸 Instagram | [@webbyraj](https://instagram.com/webbyraj) |
 | 📍 Location | Indore, Madhya Pradesh, India |
 
 ---
