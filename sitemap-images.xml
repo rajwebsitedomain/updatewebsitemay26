@@ -1,0 +1,30 @@
+<?xml version="3.0" encoding="UTF-8"?>
+<!--
+  sitemap-images.xml
+  Helps Google index your images for Google Image Search.
+  Place at: https://rajvardhansingh.in/sitemap-images.xml
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://rajvardhansingh.in/</loc>
+    <image:image>
+      <image:loc>https://rajvardhansingh.in/images/logo.png</image:loc>
+      <image:title>Rajvardhan Singh · Digital & Cloud Alchemist</image:title>
+      <image:caption>I'm Rajvardhan Singh Badgujar, a passionate Cloud & DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://rajvardhansingh.in/#about/</loc>
+    <image:image>
+      <image:loc>https://rajvardhansingh.in/images/logo.png</image:loc>
+      <image:title>Our Team</image:title>
+      <image:caption>Meet the team at YourBrand</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Add one <url> block per page that has images -->
+
+</urlset>

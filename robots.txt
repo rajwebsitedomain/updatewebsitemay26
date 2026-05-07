@@ -1,0 +1,82 @@
+# robots.txt
+# Generated for SEO best practices
+# Place this file in the ROOT of your website: https://rajvardansingh.in/robots.txt
+
+# -----------------------------------------------
+# Allow all crawlers to index everything (default)
+# -----------------------------------------------
+User-agent: *
+Allow: /
+
+# -----------------------------------------------
+# Block crawlers from private/admin areas
+# -----------------------------------------------
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /*.pdf$
+
+# -----------------------------------------------
+# Block duplicate/low-value content
+# -----------------------------------------------
+Disallow: /search?
+Disallow: /tag/
+Disallow: /author/
+Disallow: /?s=
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+
+# -----------------------------------------------
+# Allow CSS, JS and images (important for rendering)
+# -----------------------------------------------
+Allow: /wp-content/uploads/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$
+Allow: /*.svg$
+
+# -----------------------------------------------
+# Google specific bots
+# -----------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# -----------------------------------------------
+# Bing bot
+# -----------------------------------------------
+User-agent: Bingbot
+Allow: /
+
+# -----------------------------------------------
+# Block bad/scraper bots
+# -----------------------------------------------
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# -----------------------------------------------
+# Sitemap location (REQUIRED - update your domain)
+# -----------------------------------------------
+Sitemap: https://rajvardansingh.in/sitemap.xml
+Sitemap: https://rajvardansingh.in/sitemap-images.xml
+
+# Crawl delay (optional - removes server load)
+# Crawl-delay: 1

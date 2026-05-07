@@ -1,0 +1,279 @@
+<!--
+  ============================================================
+  seo-head-template.html
+  ============================================================
+  Copy the content inside <head>...</head> into every page
+  of your website. Replace all placeholder values with your
+  real content. This covers:
+    • Core SEO meta tags
+    • Open Graph (Facebook, LinkedIn, WhatsApp)
+    • Twitter / X Cards
+    • Structured Data (JSON-LD Schema.org)
+    • PWA / manifest
+    • Favicon set
+    • RSS/Atom feed autodiscovery
+    • Canonical URL
+    • Robots directives
+  ============================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ======================================================
+       CORE SEO META TAGS
+  ====================================================== -->
+  <title>Rajvardhan Singh · Digital & Cloud Alchemist -SiteMap</title>
+  <meta name="description" content="A compelling description of this page in 150–160 characters. Include your main keyword naturally. This appears in Google search results.">
+  <meta name="keywords" content="keyword one, keyword two, keyword three"><!-- optional, low SEO weight but harmless -->
+  <meta name="author" content="Your Name">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+
+  <!-- Canonical URL (prevents duplicate content penalties) -->
+  <link rel="canonical" href="https://rajvardhansingh.in/">
+
+  <!-- ======================================================
+       OPEN GRAPH — Facebook, LinkedIn, WhatsApp, Slack
+  ====================================================== -->
+  <meta property="og:type" content="article"><!-- use "website" for homepage -->
+  <meta property="og:url" content="https://rajvardhansingh.in/current-page/">
+  <meta property="og:title" content="Page Title — Your Site Name">
+  <meta property="og:description" content="A compelling description of this page in 150–160 characters.">
+  <meta property="og:image" content="https://rajvardhansingh.in/images/og-image.jpg"><!-- 1200×630px -->
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Description of the OG image">
+  <meta property="og:site_name" content="Your Site Name">
+  <meta property="og:locale" content="en_US">
+  <!-- For articles only: -->
+  <meta property="article:published_time" content="2026-05-07T09:00:00Z">
+  <meta property="article:modified_time" content="2026-05-07T09:00:00Z">
+  <meta property="article:author" content="https://rajvardhansingh.in/about/">
+  <meta property="article:section" content="Technology">
+  <meta property="article:tag" content="keyword one">
+
+  <!-- ======================================================
+       TWITTER / X CARDS
+  ====================================================== -->
+  <meta name="twitter:card" content="summary_large_image"><!-- or "summary" for small image -->
+  <meta name="twitter:site" content="@yourtwitterhandle">
+  <meta name="twitter:creator" content="@yourtwitterhandle">
+  <meta name="twitter:url" content="https://rajvardhansingh.in/current-page/">
+  <meta name="twitter:title" content="-SiteMap">
+  <meta name="twitter:description" content="A compelling description of this page in 150–160 characters.">
+  <meta name="twitter:image" content="https://rajvardhansingh.in/images/twitter-card.jpg"><!-- 1200×600px -->
+  <meta name="twitter:image:alt" content="Description of the Twitter card image">
+
+  <!-- ======================================================
+       STRUCTURED DATA — JSON-LD (Schema.org)
+       Google uses this for rich snippets in search results
+  ====================================================== -->
+
+  <!-- Website schema (homepage only) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Your Site Name",
+    "url": "https://rajvardhansingh.in/",
+    "description": I'm Rajvardhan Singh Badgujar, a passionate Cloud & DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://rajvardhansingh.in/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Organization schema (all pages) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Your Company Name",
+    "url": "https://rajvardhansingh.in",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rajvardhansingh.in/images/logo.png",
+      "width": 512,
+      "height": 512
+    },
+    "sameAs": [
+     
+   
+      "https://www.linkedin.com/in/rajvardhan-singh-badgujar",
+      "https://www.instagram.com/webbyraj",
+         "https://www.github.com/singhrajvardhan",
+
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-9770289936",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "Hindi"]
+    }
+  }
+  </script>
+
+  <!-- Blog post / Article schema (blog pages only) -->
+  <!-- Blog Post Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "DevOps Accelerator – Real-World CI/CD Pipeline Project",
+  "description": "Complete real-world DevOps pipeline simulation with automated CI/CD workflows, Dockerized deployments, and scalable AWS cloud architecture.",
+  "image": "https://rajvardhansingh.in/assets/images/devops-accelerator.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Rajvardhan Singh",
+    "url": "https://rajvardhansingh.in/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rajvardhan Singh Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rajvardhansingh.in/logo.png"
+    }
+  },
+  "datePublished": "2026-05-07T09:00:00Z",
+  "dateModified": "2026-05-07T09:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rajvardhansingh.in/blog/devops-accelerator/"
+  },
+  "wordCount": 1200,
+  "articleSection": "DevOps",
+  "keywords": "DevOps, CI/CD, Docker, GitHub Actions, AWS EC2, Cloud Computing, Automation"
+}
+</script>
+
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://rajvardhansingh.in/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About",
+      "item": "https://rajvardhansingh.in/#about/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "DevOps Accelerator",
+      "item": "https://rajvardhansingh.in/#contact"
+    }
+  ]
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What technologies are used in the DevOps Accelerator project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The project uses GitHub Actions, Docker, AWS EC2, CI/CD pipelines, and cloud deployment automation technologies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the purpose of this DevOps project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This project demonstrates a real-world DevOps workflow including automated builds, testing, containerized deployment, and scalable cloud infrastructure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who developed this project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The project was developed by Rajvardhan Singh, a Cloud and DevOps Engineer focused on automation, AWS, and scalable infrastructure solutions."
+      }
+    }
+  ]
+}
+</script>
+ 
+
+  <!-- ======================================================
+       FAVICON — Full set for all browsers/devices
+       Generate all sizes at: https://realfavicongenerator.net
+  ====================================================== -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+  <link rel="apple-touch-icon" sizes="57x57"   href="/images/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60"   href="/images/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72"   href="/images/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76"   href="/images/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+  <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#1a73e8">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- ======================================================
+       PWA MANIFEST
+  ====================================================== -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- ======================================================
+       RSS / ATOM FEED AUTODISCOVERY
+  ====================================================== -->
+  <link rel="alternate" type="application/rss+xml"  title="Your Site RSS Feed"  href="https://rajvardhansingh.in/rss.xml">
+  <link rel="alternate" type="application/atom+xml" title="Your Site Atom Feed" href="https://rajvardhansingh.in/atom.xml">
+
+  <!-- ======================================================
+       PRECONNECT — speeds up third-party resources
+  ====================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Add any other CDNs your site uses -->
+
+  <!-- ======================================================
+       GEOGRAPHIC / LANGUAGE (optional)
+  ====================================================== -->
+  <meta name="geo.region" content="IN-MP"><!-- ISO 3166 country-region -->
+  <meta name="geo.placename" content="Indore, Madhya Pradesh, India">
+  <meta name="language" content="English">
+  <link rel="alternate" hreflang="en" href="https://rajvardhansingh.in/">
+  <!-- Add more hreflang if you have multiple language versions:
+  <link rel="alternate" hreflang="hi" href="https://rajvardhamsingh.in/hi/">
+  <link rel="alternate" hreflang="x-default" href="https://rajvardhansingh.in/">
+  -->
+
+</head>
+<body>
+  <!-- Your page content here -->
+</body>
+</html>

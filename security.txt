@@ -1,0 +1,25 @@
+# security.txt
+# Standard: https://securitytxt.org  (RFC 9116)
+# Place at: https://rajvardansingh.in/.well-known/security.txt
+# This file tells security researchers how to report vulnerabilities on your site.
+# Google and search engines view this as a trust signal.
+
+Contact: mailto:help@rajvardansingh.in
+Contact: https://rajvardansingh.in/#contact
+
+# URL of your security/bug-bounty policy page
+Policy: https://rajvardansingh.in/#contact
+
+# Languages your security team speaks
+Preferred-Languages: en
+
+# When this file expires (renew yearly — required by RFC 9116)
+Expires: 2027-05-07T00:00:00z
+
+# Optional: public PGP encryption key for encrypted reports
+# Encryption: https://rajvardansingh.in/pgp-key.txt
+
+# Optional: link to your Hall of Fame for reporters
+# Acknowledgments: https://rajvardansingh.in/security/hall-of-fame/
+
+

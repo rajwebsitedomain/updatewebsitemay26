@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  atom.xml — Atom 1.0 Feed (modern alternative to RSS 2.0)
+  Place at: https://rajvardhansingh.in/atom.xml
+  
+  Atom is more standardized than RSS and preferred by some services/readers.
+  Best practice: offer BOTH rss.xml and atom.xml
+  
+  Add to your HTML <head>:
+  <link rel="alternate" type="application/atom+xml" title="Your Site Atom Feed" href="https://rajvardhansingh.in/atom.xml">
+-->
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:media="http://search.yahoo.com/mrss/">
+
+  <!-- ===== FEED METADATA ===== -->
+  <title>Rajvardhan Singh · Digital & Cloud Alchemist</title>
+  <subtitle>I'm Rajvardhan Singh Badgujar, a passionate Cloud & DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.</subtitle>
+  <link href="https://rajvardhansingh.in/" rel="alternate" type="text/html"/>
+  <link href="https://rajvardhansingh.in/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://rajvardhansingh.in/atom.xml</id>
+  <updated>2026-05-07T09:00:00Z</updated>
+  <rights>Copyright 2026 Your Name</rights>
+  <generator uri="https://rajvardhansingh.in" version="3.0">Your CMS</generator>
+
+  <author>
+    <name>Rajvardhan Singh</name>
+    <email>help@rajvardhansingh.in</email>
+    <uri>https://rajvardhansingh.in/#about</uri>
+  </author>
+
+  <icon>https://rajvardhansingh.in/favicon.ico</icon>
+  <logo>https://rajvardhansingh.in/logo.png</logo>
+
+  <category term="Technology"/>
+  <category term="Blog"/>
+
+  <!-- ===== ENTRIES (one per post, most recent first) ===== -->
+
+  <entry>
+    <title>I build scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations. "If you have to do it twice, automate it."</title>
+    <link href="https://rajvardhansingh.in/#about" rel="alternate" type="text/html"/>
+    <id>https://rajvardhansingh.in/#about</id>
+    <published>2026-05-07T09:00:00Z</published>
+    <updated>2026-05-07T09:00:00Z</updated>
+    <author>
+      <name>Rajvardhan Singh </name>
+      <email>help@rajvardhansingh.in</email>
+    </author>
+    <category term="Technology"/>
+    <summary type="html"><![CDATA[
+     I'm Rajvardhan Singh Badgujar, a passionate Cloud & DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.
+
+My philosophy: "If you have to do it twice, automate it." I thrive on creating CI/CD pipelines, containerized applications, and infrastructure as code that just works.
+    ]]></summary>
+    <content type="html"><![CDATA[
+      <p>This is the <strong>full HTML content</strong> of your blog post.</p>
+      <p>Atom supports full content natively — no extra namespace needed.</p>
+      <img src="https://rajvardhansingh.in/logo.png" alt="Featured image"/>
+    ]]></content>
+    <media:thumbnail url="https://rajvardhansingh.in/logo.png" width="300" height="200"/>
+  </entry>
+
+ 
+
+
+  <!-- Add more <entry> blocks above this line -->
+
+</feed>

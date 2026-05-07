@@ -1,0 +1,29 @@
+# ads.txt — Authorized Digital Sellers
+# Standard: https://iabtechlab.com/ads-txt/
+# Place at: https://rajvardansingh.in/ads.txt
+#
+# This file declares which ad networks are authorized to sell your ad inventory.
+# Google, Bing and advertisers check this file. A missing or wrong ads.txt
+# can hurt your ad revenue and site trust score.
+#
+# Format: <ad_system_domain>, <publisher_id>, <account_type>, <cert_authority_id>
+# account_type: DIRECT (you have a direct contract) or RESELLER (third-party)
+
+# ---- Google AdSense ----
+# Replace ca-pub-XXXXXXXXXXXXXXXX with your actual AdSense publisher ID
+google.com, ca-pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# ---- Google Ad Manager (DFP) ----
+# google.com, XXXXXXX, DIRECT, f08c47fec0942fa0
+
+# ---- Media.net ----
+# media.net, XXXXXXX, DIRECT
+
+# ---- Amazon Publisher Services ----
+# advertising.amazon.com, XXXXXXX, DIRECT
+
+# ---- Ezoic ----
+# google.com, pub-XXXXXXXXXXXXXXXX, RESELLER, f08c47fec0942fa0
+
+# If you don't run ads, use this single line instead:
+# placeholder.example.com, placeholder, DIRECT

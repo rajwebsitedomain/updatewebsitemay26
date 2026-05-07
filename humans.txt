@@ -1,0 +1,15 @@
+/* TEAM */
+Site Owner: Your Name
+Contact: help@rajvardhansingh.in
+Location:  Indore, India
+
+/* SITE */
+Last update: 2026/05/07
+Language: English
+Doctype: HTML5
+IDE: VS Code
+
+/* THANKS */
+Standards: HTML5, CSS3
+Components: Apache, PHP
+Software: WordPress / or your CMS
