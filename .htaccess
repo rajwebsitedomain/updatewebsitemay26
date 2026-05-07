@@ -4,8 +4,6 @@
 
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^www\.rajvardhansingh\.com [NC]
-RewriteRule ^(.*)$ https://rajvardhansingh.com/$1 [L,R=301]
 
 
 <IfModule mod_headers.c>
