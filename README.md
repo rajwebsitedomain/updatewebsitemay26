@@ -2,7 +2,7 @@
 
 > **Cloud & DevOps Engineer** · Indore, India · [rajvardhansingh.in](https://www.rajvardhansingh.in)
 
-![Portfolio Preview](assets/images/social-preview.jpg)
+![Portfolio Preview](/logo.png)
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-rajvardhansingh.in-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.rajvardhansingh.in)
 [![GitHub](https://img.shields.io/badge/GitHub-singhrajvardhan-000?style=for-the-badge&logo=github)](https://github.com/singhrajvardhan)
