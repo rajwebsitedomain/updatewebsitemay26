@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap | Rajvardhan Singh – Cloud & DevOps Engineer</title>
+    <meta name="description" content="Complete sitemap of Rajvardhan Singh's portfolio – Cloud & DevOps Engineer from Indore, India. Find all pages, projects, skills, and navigation links in one place.">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Tailwind + Fonts + Styles (matching main portfolio) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        neo: {
+                            bg: '#FFFDF5',
+                            accent: '#FF6B6B',
+                            secondary: '#FFD93D',
+                            muted: '#C4B5FD',
+                        }
+                    },
+                    boxShadow: {
+                        'neo-sm': '4px 4px 0px 0px #000',
+                        'neo-md': '8px 8px 0px 0px #000',
+                        'neo-lg': '12px 12px 0px 0px #000',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #FFFDF5;
+        }
+        .grid-bg {
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+        }
+        .text-stroke {
+            -webkit-text-stroke: 2px #000;
+            color: transparent;
+        }
+        ::selection {
+            background-color: #FF6B6B;
+            color: #000;
+        }
+        .sitemap-link {
+            transition: all 0.15s ease;
+        }
+        .sitemap-link:hover {
+            transform: translateX(6px);
+            color: #FF6B6B;
+        }
+    </style>
+</head>
+<body class="bg-neo-bg text-black font-sans font-bold">
+
+    <!-- ========== NAVIGATION (MINI) ========== -->
+    <nav class="sticky top-0 z-50 bg-neo-bg border-b-4 border-black shadow-neo-sm">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="https://www.rajvardhansingh.in/" class="bg-neo-accent border-4 border-black px-6 py-3 shadow-neo-sm font-black text-xl uppercase tracking-tight hover:-translate-y-1 hover:shadow-neo-md transition-all duration-100 inline-flex items-center gap-2">
+                <span class="text-2xl">🗺️</span> Sitemap
+            </a>
+            <a href="https://www.rajvardhansingh.in/" class="bg-black text-white border-4 border-black px-6 py-3 shadow-neo-sm font-black text-sm uppercase tracking-widest hover:-translate-y-1 hover:shadow-neo-md transition-all duration-100">
+                ← Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <header class="relative py-16 md:py-24 overflow-hidden border-b-4 border-black">
+        <div class="absolute inset-0 grid-bg"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <div class="inline-block bg-neo-secondary border-4 border-black px-6 py-2 shadow-neo-sm -rotate-2 mb-6">
+                <span class="font-black uppercase tracking-widest text-sm">Site Index</span>
+            </div>
+            <h1 class="text-6xl md:text-8xl font-black uppercase leading-[0.85] tracking-tighter mb-4">
+                <span class="text-stroke">Sitemap</span>
+                <span class="block bg-neo-accent px-6 border-4 border-black inline-block shadow-neo-md rotate-1 text-white mt-2">Navigation</span>
+            </h1>
+            <p class="text-xl md:text-2xl font-bold max-w-2xl mx-auto mt-6">
+                Complete guide to all pages, sections, projects, and resources on this website.
+                <span class="bg-neo-secondary px-2 border-2 border-black inline-block">Everything in one place.</span>
+            </p>
+        </div>
+    </header>
+
+    <!-- ========== SITEMAP CONTENT ========== -->
+    <section class="py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- COLUMN 1: MAIN PAGES -->
+                <div class="bg-white border-4 border-black shadow-neo-md p-6 hover:-translate-y-2 transition-all duration-200">
+                    <div class="flex items-center gap-3 mb-6 border-b-4 border-black pb-3">
+                        <span class="text-4xl">🏠</span>
+                        <h2 class="text-2xl font-black uppercase tracking-tight">Main Pages</h2>
+                    </div>
+                    <ul class="space-y-3">
+                        <li><a href="https://www.rajvardhansingh.in/" class="sitemap-link flex items-center gap-2 font-bold text-lg"><span class="text-neo-accent">→</span> Home / Portfolio</a></li>
+                        <li><a href="https://www.rajvardhansingh.in/#work" class="sitemap-link flex items-center gap-2 font-bold text-lg"><span class="text-neo-accent">→</span> Work Section</a></li>
+                        <li><a href="https://www.rajvardhansingh.in/#about" class="sitemap-link flex items-center gap-2 font-bold text-lg"><span class="text-neo-accent">→</span> About Me</a></li>
+                        <li><a href="https://www.rajvardhansingh.in/#skills" class="sitemap-link flex items-center gap-2 font-bold text-lg"><span class="text-neo-accent">→</span> Technical Skills</a></li>
+                        <li><a href="https://www.rajvardhansingh.in/#projects" class="sitemap-link flex items-center gap-2 font-bold text-lg"><span class="text-neo-accent">→</span> Featured Projects</a></li>
+                        <li><a href="https://www.rajvardhansingh.in/#contact" class="sitemap-link flex items-center gap-2 font-bold text-lg"><span class="text-neo-accent">→</span> Contact & Socials</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMN 2: CLOUD & DEVOPS PROJECTS -->
+                <div class="bg-white border-4 border-black shadow-neo-md p-6 hover:-translate-y-2 transition-all duration-200">
+                    <div class="flex items-center gap-3 mb-6 border-b-4 border-black pb-3">
+                        <span class="text-4xl">🚀</span>
+                        <h2 class="text-2xl font-black uppercase tracking-tight">Cloud Projects</h2>
+                    </div>
+                    <ul class="space-y-3">
+                        <li><a href="https://github.com/singhrajvardhan/DevOps_Accelerator" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> DevOps Accelerator (GitHub)</a></li>
+                        <li><a href="https://github.com/singhrajvardhan/aws-ec2-s3-static-website" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> EC2 + S3 Static Hosting</a></li>
+                        <li><a href="https://github.com/singhrajvardhan/personal-private-CLoud" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> Personal Private Cloud</a></li>
+                        <li><a href="https://github.com/singhrajvardhan/iVolve_CI-CD_Infrastructure" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> Infrastructure as Code Pipeline</a></li>
+                        <li><a href="https://examsystem.liveblog365.com/?i=1" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> SecureExam Platform (Live)</a></li>
+                        <li><a href="https://thikanadhabla.in/" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> Thikana Dhabla Ghosi (Live)</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMN 3: SKILLS & TECHNOLOGIES -->
+                <div class="bg-white border-4 border-black shadow-neo-md p-6 hover:-translate-y-2 transition-all duration-200">
+                    <div class="flex items-center gap-3 mb-6 border-b-4 border-black pb-3">
+                        <span class="text-4xl">⚙️</span>
+                        <h2 class="text-2xl font-black uppercase tracking-tight">Tech Stack</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">AWS</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Azure</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Docker</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Kubernetes</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Terraform</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Jenkins</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">GitHub Actions</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Ansible</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">ArgoCD</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Grafana</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Prometheus</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Linux</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Python</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">FastAPI</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Git</span>
+                        <span class="bg-neo-secondary border-2 border-black px-3 py-2 text-center font-bold text-sm">Selenium</span>
+                    </div>
+                </div>
+
+                <!-- COLUMN 4: SOCIAL & PROFESSIONAL -->
+                <div class="bg-white border-4 border-black shadow-neo-md p-6 hover:-translate-y-2 transition-all duration-200">
+                    <div class="flex items-center gap-3 mb-6 border-b-4 border-black pb-3">
+                        <span class="text-4xl">🔗</span>
+                        <h2 class="text-2xl font-black uppercase tracking-tight">Profiles</h2>
+                    </div>
+                    <ul class="space-y-3">
+                        <li><a href="https://github.com/singhrajvardhan" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> GitHub Profile</a></li>
+                        <li><a href="https://linkedin.com/in/rajvardhan" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> LinkedIn Profile</a></li>
+                        <li><a href="https://instagram.com/webbyraj" target="_blank" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> Instagram (@webbyraj)</a></li>
+                        <li><a href="mailto:rajvardhancoder@gmail.com" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> Email: rajvardhancoder@gmail.com</a></li>
+                        <li><a href="tel:+919770289936" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> Phone: +91 97702 89936</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMN 5: CERTIFICATIONS & EDUCATION -->
+                <div class="bg-white border-4 border-black shadow-neo-md p-6 hover:-translate-y-2 transition-all duration-200">
+                    <div class="flex items-center gap-3 mb-6 border-b-4 border-black pb-3">
+                        <span class="text-4xl">🎓</span>
+                        <h2 class="text-2xl font-black uppercase tracking-tight">Education & Certs</h2>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-2"><span class="text-neo-accent">→</span> <span class="font-bold">BCA Final Year</span><br><span class="text-sm font-normal">Govt. Holkar Science College, Indore (2023–2026)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-neo-accent">→</span> <span class="font-bold">Cloud & DevOps Course</span><br><span class="text-sm font-normal">Comprehensive cloud engineering & DevOps practices</span></li>
+                        <li class="flex items-start gap-2"><span class="text-neo-accent">→</span> <span class="font-bold">Docker & Kubernetes Workshop</span><br><span class="text-sm font-normal">Hands-on containerization & orchestration</span></li>
+                        <li class="flex items-start gap-2"><span class="text-neo-accent">→</span> <span class="font-bold">GitHub Actions CI/CD</span><br><span class="text-sm font-normal">Project-based pipeline development</span></li>
+                        <li class="flex items-start gap-2"><span class="text-neo-accent">→</span> <span class="font-bold">AWS Cloud Practitioner</span><br><span class="text-sm font-normal">Preparing for certification</span></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMN 6: RESOURCES & DOWNLOADS -->
+                <div class="bg-white border-4 border-black shadow-neo-md p-6 hover:-translate-y-2 transition-all duration-200">
+                    <div class="flex items-center gap-3 mb-6 border-b-4 border-black pb-3">
+                        <span class="text-4xl">📄</span>
+                        <h2 class="text-2xl font-black uppercase tracking-tight">Downloads</h2>
+                    </div>
+                    <ul class="space-y-3">
+                        <li><a href="https://www.rajvardhansingh.in/rajcv.pdf" download class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">⬇️</span> Download CV / Resume (PDF)</a></li>
+                        <li><a href="https://www.rajvardhansingh.in/sitemap.xml" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">→</span> XML Sitemap</a></li>
+                        <li><a href="#" id="printSitemap" class="sitemap-link flex items-center gap-2 font-bold"><span class="text-neo-accent">🖨️</span> Print / Save this Sitemap</a></li>
+                    </ul>
+                    <div class="mt-6 pt-4 border-t-2 border-black">
+                        <span class="block text-sm font-bold uppercase tracking-wider">📍 Location</span>
+                        <p class="font-bold">75, Mahaveer Bagh, Navlakh, Indore, Madhya Pradesh, India - 452001</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- FULL URL LIST (for crawlers and transparency) -->
+            <div class="mt-16 bg-black text-white border-4 border-white p-8 shadow-neo-lg">
+                <h3 class="text-3xl font-black uppercase mb-6 flex items-center gap-3">
+                    <span class="text-neo-accent">🔍</span> Complete URL Index
+                </h3>
+                <div class="grid md:grid-cols-2 gap-3 text-sm font-mono break-all">
+                    <a href="https://www.rajvardhansingh.in/" class="hover:text-neo-accent transition-colors">https://www.rajvardhansingh.in/</a>
+                    <a href="https://www.rajvardhansingh.in/#work" class="hover:text-neo-accent transition-colors">https://www.rajvardhansingh.in/#work</a>
+                    <a href="https://www.rajvardhansingh.in/#about" class="hover:text-neo-accent transition-colors">https://www.rajvardhansingh.in/#about</a>
+                    <a href="https://www.rajvardhansingh.in/#skills" class="hover:text-neo-accent transition-colors">https://www.rajvardhansingh.in/#skills</a>
+                    <a href="https://www.rajvardhansingh.in/#projects" class="hover:text-neo-accent transition-colors">https://www.rajvardhansingh.in/#projects</a>
+                    <a href="https://www.rajvardhansingh.in/#contact" class="hover:text-neo-accent transition-colors">https://www.rajvardhansingh.in/#contact</a>
+                    <a href="https://github.com/singhrajvardhan" target="_blank" class="hover:text-neo-accent transition-colors">https://github.com/singhrajvardhan</a>
+                    <a href="https://linkedin.com/in/rajvardhan" target="_blank" class="hover:text-neo-accent transition-colors">https://linkedin.com/in/rajvardhan</a>
+                    <a href="https://instagram.com/webbyraj" target="_blank" class="hover:text-neo-accent transition-colors">https://instagram.com/webbyraj</a>
+                    <a href="https://examsystem.liveblog365.com/?i=1" target="_blank" class="hover:text-neo-accent transition-colors">https://examsystem.liveblog365.com/</a>
+                    <a href="https://thikanadhabla.in/" target="_blank" class="hover:text-neo-accent transition-colors">https://thikanadhabla.in/</a>
+                    <a href="https://github.com/singhrajvardhan/DevOps_Accelerator" target="_blank" class="hover:text-neo-accent transition-colors">https://github.com/singhrajvardhan/DevOps_Accelerator</a>
+                    <a href="https://github.com/singhrajvardhan/aws-ec2-s3-static-website" target="_blank" class="hover:text-neo-accent transition-colors">https://github.com/singhrajvardhan/aws-ec2-s3-static-website</a>
+                    <a href="https://github.com/singhrajvardhan/personal-private-CLoud" target="_blank" class="hover:text-neo-accent transition-colors">https://github.com/singhrajvardhan/personal-private-CLoud</a>
+                    <a href="https://github.com/singhrajvardhan/iVolve_CI-CD_Infrastructure" target="_blank" class="hover:text-neo-accent transition-colors">https://github.com/singhrajvardhan/iVolve_CI-CD_Infrastructure</a>
+                </div>
+            </div>
+
+            <!-- STATS SECTION -->
+            <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="bg-neo-accent border-4 border-black p-4 shadow-neo-sm">
+                    <span class="block text-4xl font-black">6+</span>
+                    <span class="font-bold uppercase text-sm">Main Sections</span>
+                </div>
+                <div class="bg-neo-secondary border-4 border-black p-4 shadow-neo-sm">
+                    <span class="block text-4xl font-black">14+</span>
+                    <span class="font-bold uppercase text-sm">Tech Skills</span>
+                </div>
+                <div class="bg-neo-muted border-4 border-black p-4 shadow-neo-sm">
+                    <span class="block text-4xl font-black">6</span>
+                    <span class="font-bold uppercase text-sm">Live Projects</span>
+                </div>
+                <div class="bg-black text-white border-4 border-white p-4 shadow-neo-sm">
+                    <span class="block text-4xl font-black">3+</span>
+                    <span class="font-bold uppercase text-sm">Social Platforms</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (MATCHING MAIN SITE) -->
+    <footer class="bg-black text-white border-t-4 border-black py-12">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex flex-wrap justify-center gap-6 mb-6">
+                <a href="https://www.rajvardhansingh.in/" class="hover:text-neo-accent transition-colors font-bold">Home</a>
+                <a href="#about" class="hover:text-neo-accent transition-colors font-bold">About</a>
+                <a href="#skills" class="hover:text-neo-accent transition-colors font-bold">Skills</a>
+                <a href="#projects" class="hover:text-neo-accent transition-colors font-bold">Projects</a>
+                <a href="#contact" class="hover:text-neo-accent transition-colors font-bold">Contact</a>
+                <a href="sitemap.xml" class="hover:text-neo-accent transition-colors font-bold">XML Sitemap</a>
+            </div>
+            <p class="font-bold text-sm uppercase tracking-widest">© 2026 Rajvardhan Singh Badgujar. All rights reserved.</p>
+            <p class="font-bold text-sm uppercase tracking-widest mt-2">Built with ❤️ and too much coffee ☕</p>
+        </div>
+    </footer>
+
+    <script>
+        // Print functionality
+        const printBtn = document.getElementById('printSitemap');
+        if(printBtn) {
+            printBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.print();
+            });
+        }
+
+        // Smooth scroll for any anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    e.preventDefault();
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Add print styles for cleaner printed sitemap
+        const style = document.createElement('style');
+        style.textContent = `
+            @media print {
+                body {
+                    background: white;
+                    color: black;
+                }
+                nav, footer, .shadow-neo-sm, .shadow-neo-md, .shadow-neo-lg {
+                    box-shadow: none !important;
+                    border: 1px solid black !important;
+                }
+                .sitemap-link:hover {
+                    transform: none !important;
+                }
+                a {
+                    text-decoration: underline;
+                    color: black !important;
+                }
+                button, .no-print {
+                    display: none !important;
+                }
+                .grid-bg {
+                    background: none !important;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
