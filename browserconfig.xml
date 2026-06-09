@@ -1,32 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  browserconfig.xml
-  Place at: https://rajvardhansingh.in/browserconfig.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   
-  Controls how your site appears when pinned to Windows Start Menu / Microsoft Edge.
-  Also referenced by the HTML meta tag:
-  <meta name="msapplication-config" content="/browserconfig.xml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://rajvardhansingh.in/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
   
-  Generate tile images at: https://realfavicongenerator.net
--->
-<browserconfig>
-  <msapplication>
-    <tile>
-      <!-- Square 70x70 tile -->
-      <square70x70logo src="/images/icons/ms-icon-70x70.png"/>
-      <!-- Square 150x150 tile (most common) -->
-      <square150x150logo src="/images/icons/ms-icon-150x150.png"/>
-      <!-- Wide 310x150 tile -->
-      <wide310x150logo src="/images/icons/ms-icon-310x150.png"/>
-      <!-- Square 310x310 tile (large) -->
-      <square310x310logo src="/images/icons/ms-icon-310x310.png"/>
-      <!-- Tile background colour (use your brand colour) -->
-      <TileColor>#ffffff</TileColor>
-    </tile>
-    <notification>
-      <polling-uri src="https://rajvardhansingh.in/rss.xml"/>
-      <frequency>30</frequency>
-      <cycle>1</cycle>
-    </notification>
-  </msapplication>
-</browserconfig>
+  <!-- Work / Portfolio -->
+  <url>
+    <loc>https://rajvardhansingh.in/#work</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- About -->
+  <url>
+    <loc>https://rajvardhansingh.in/#about</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Skills -->
+  <url>
+    <loc>https://rajvardhansingh.in/#skills</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Projects -->
+  <url>
+    <loc>https://rajvardhansingh.in/#projects</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contact -->
+  <url>
+    <loc>https://rajvardhansingh.in/#contact</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Individual Project Pages (add these if you have separate pages) -->
+  <url>
+    <loc>https://rajvardhansingh.in/projects/devops-accelerator</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://rajvardhansingh.in/projects/ec2-s3-static-hosting</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://rajvardhansingh.in/projects/private-cloud</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://rajvardhansingh.in/projects/infrastructure-as-code</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://rajvardhansingh.in/projects/secureexam</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://rajvardhansingh.in/projects/thikana-dhabla-ghosi</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+</urlset>
