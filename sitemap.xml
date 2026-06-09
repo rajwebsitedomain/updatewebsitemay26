@@ -1,5 +1,5 @@
-<?xml version="6.0" encoding="UTF-8"?>
-<
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
   sitemap.xml
   Place this at: https://rajvardhansingh.in/sitemap.xml
   Submit to Google Search Console: https://search.google.com/search-console
@@ -7,69 +7,98 @@
   
   changefreq values: always | hourly | daily | weekly | monthly | yearly | never
   priority values:  0.0 (lowest) to 1.0 (highest) — homepage = 1.0 recommended
->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <?xml version="1.0" encoding="UTF-8"?>
+  
+  IMPORTANT: Hash URLs (#about, #work, etc.) are NOT crawlable as separate pages.
+  Google treats them all as https://rajvardhansingh.in/
+  Consider using separate URLs like /about/ /work/ /contact/ instead.
+-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
 
   <!-- ===== HOMEPAGE ===== -->
   <url>
     <loc>https://rajvardhansingh.in/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- ===== MAIN PAGES ===== -->
+  <!-- ===== MAIN PAGES (only include if these are actual separate pages, not hash fragments) ===== -->
+  <!--
+  NOTE: If your site uses hash-based routing (#about, #contact, etc.),
+  search engines will ignore the fragment and treat all of these as the homepage.
+  Remove these entries unless you have actual separate URLs like /about.html or /about/
+  
   <url>
-    <loc>https://rajvardhansingh.in/#about/</loc>
+    <loc>https://rajvardhansingh.in/about/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://rajvardhansingh.in/#contact/</loc>
+    <loc>https://rajvardhansingh.in/contact/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://rajvardhansingh.in/#work/</loc>
+    <loc>https://rajvardhansingh.in/work/</loc>
     <lastmod>2026-04-01</lastmod>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- ===== BLOG / ARTICLES ===== -->
   <url>
-    <loc>https://rajvardhansingh.in/#skills/</loc>
+    <loc>https://rajvardhansingh.in/skills/</loc>
     <lastmod>2026-05-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  -->
+
+  <!-- ===== PROJECT PAGES ===== -->
+  <url>
+    <loc>https://rajvardhansingh.in/projects/devops-accelerator</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://rajvardhansingh.in/#projects</loc>
+    <loc>https://rajvardhansingh.in/projects/ec2-s3-static-hosting</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rajvardhansingh.in/projects/private-cloud</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://rajvardhansingh.in/Download CV/</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://rajvardhansingh.in/projects/infrastructure-as-code</loc>
+    <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
-  
+  <url>
+    <loc>https://rajvardhansingh.in/projects/secureexam</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://rajvardhansingh.in/projects/thikana-dhabla-ghosi</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
   <!-- Add more URLs following the same pattern above -->
 
