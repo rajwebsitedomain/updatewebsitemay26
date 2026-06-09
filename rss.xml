@@ -5,7 +5,7 @@
   
   RSS 2.0 Standard — readable by all feed readers (Feedly, NewsBlur, Inoreader etc.)
   Add this in your <head> HTML so browsers auto-discover it:
-  <link rel="alternate" type="application/rss+xml" title="Rajvardhan Singh · Digital & Cloud Alchemist" href="https://rajvardhansingh.in/rss.xml">
+  <link rel="alternate" type="application/rss+xml" title="Rajvardhan Singh · Digital &amp; Cloud Alchemist" href="https://rajvardhansingh.in/rss.xml">
 -->
 <rss version="2.0"
   xmlns:atom="http://www.w3.org/2005/Atom"
@@ -15,9 +15,9 @@
 
   <channel>
     <!-- ===== CHANNEL INFO ===== -->
-    <title>Rajvardhan Singh · Digital & Cloud Alchemist</title>
+    <title>Rajvardhan Singh · Digital &amp; Cloud Alchemist</title>
     <link>https://rajvardhansingh.in</link>
-    <description>I'm Rajvardhan Singh Badgujar, a passionate Cloud & DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.</description>
+    <description>I'm Rajvardhan Singh Badgujar, a passionate Cloud &amp; DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.</description>
     <language>en-us</language>
     <copyright>Copyright 2026, Rajvardhan Singh. All rights reserved.</copyright>
     <managingEditor>help@rajvardhansingh.in (Rajvardhan Singh)</managingEditor>
@@ -34,7 +34,7 @@
     <!-- Feed image / logo -->
     <image>
       <url>https://rajvardhansingh.in/logo.png</url>
-      <title>Rajvardhan Singh · Digital & Cloud Alchemist</title>
+      <title>Rajvardhan Singh · Digital &amp; Cloud Alchemist</title>
       <link>https://rajvardhansingh.in</link>
       <width>144</width>
       <height>144</height>
