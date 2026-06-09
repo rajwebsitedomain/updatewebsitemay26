@@ -13,14 +13,14 @@
       xmlns:media="http://search.yahoo.com/mrss/">
 
   <!-- ===== FEED METADATA ===== -->
-  <title>Rajvardhan Singh · Digital & Cloud Alchemist</title>
-  <subtitle>I'm Rajvardhan Singh Badgujar, a passionate Cloud & DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.</subtitle>
+  <title>Rajvardhan Singh · Digital &amp; Cloud Alchemist</title>
+  <subtitle>I'm Rajvardhan Singh Badgujar, a passionate Cloud &amp; DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.</subtitle>
   <link href="https://rajvardhansingh.in/" rel="alternate" type="text/html"/>
   <link href="https://rajvardhansingh.in/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://rajvardhansingh.in/atom.xml</id>
-  <updated>2026-05-07T09:00:00Z</updated>
-  <rights>Copyright 2026 Your Name</rights>
-  <generator uri="https://rajvardhansingh.in" version="3.0">Your CMS</generator>
+  <updated>2026-06-10T09:00:00Z</updated>
+  <rights>Copyright 2026 Rajvardhan Singh</rights>
+  <generator uri="https://rajvardhansingh.in" version="1.0">Custom</generator>
 
   <author>
     <name>Rajvardhan Singh</name>
@@ -43,12 +43,12 @@
     <published>2026-05-07T09:00:00Z</published>
     <updated>2026-05-07T09:00:00Z</updated>
     <author>
-      <name>Rajvardhan Singh </name>
+      <name>Rajvardhan Singh</name>
       <email>help@rajvardhansingh.in</email>
     </author>
     <category term="Technology"/>
     <summary type="html"><![CDATA[
-     I'm Rajvardhan Singh Badgujar, a passionate Cloud & DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.
+     I'm Rajvardhan Singh Badgujar, a passionate Cloud &amp; DevOps Engineer and final-year BCA student from Indore, India. I specialize in building scalable, secure, and automated cloud infrastructure that bridges the gap between development and operations.
 
 My philosophy: "If you have to do it twice, automate it." I thrive on creating CI/CD pipelines, containerized applications, and infrastructure as code that just works.
     ]]></summary>
@@ -59,9 +59,6 @@ My philosophy: "If you have to do it twice, automate it." I thrive on creating C
     ]]></content>
     <media:thumbnail url="https://rajvardhansingh.in/logo.png" width="300" height="200"/>
   </entry>
-
- 
-
 
   <!-- Add more <entry> blocks above this line -->
 
