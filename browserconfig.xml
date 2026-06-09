@@ -1,4 +1,4 @@
-<?xml version="3.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   browserconfig.xml
   Place at: https://rajvardhansingh.in/browserconfig.xml
@@ -24,7 +24,7 @@
       <TileColor>#ffffff</TileColor>
     </tile>
     <notification>
-      <polling-uri  src="https://rajvardhansingh.in/rss.xml"/>
+      <polling-uri src="https://rajvardhansingh.in/rss.xml"/>
       <frequency>30</frequency>
       <cycle>1</cycle>
     </notification>
