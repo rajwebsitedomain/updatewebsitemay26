@@ -1114,6 +1114,146 @@ loadVisitorInfo();
 }
 </script>
 
+
+
+    <script>
+(function() {
+  // ============================================================
+  // AUTO-DETECT & CACHE PDFs FOR OFFLINE USE
+  // ============================================================
+  
+  console.log('📄 PDF Offline Cacher activated');
+  
+  // ----- Find all PDF links on the page -----
+  function findAllPDFs() {
+    const pdfs = [];
+    
+    // Find all <a> tags with .pdf links
+    document.querySelectorAll('a[href$=".pdf"], a[href*=".pdf?"]').forEach(link => {
+      const href = link.getAttribute('href');
+      if (href && !href.startsWith('http')) {
+        pdfs.push(href);
+      }
+    });
+    
+    // Find all embed/object tags with PDFs
+    document.querySelectorAll('embed[src$=".pdf"], object[data$=".pdf"]').forEach(el => {
+      const src = el.getAttribute('src') || el.getAttribute('data');
+      if (src) pdfs.push(src);
+    });
+    
+    // Find iframe with PDFs
+    document.querySelectorAll('iframe[src$=".pdf"]').forEach(el => {
+      const src = el.getAttribute('src');
+      if (src) pdfs.push(src);
+    });
+    
+    // Remove duplicates
+    return [...new Set(pdfs)];
+  }
+
+  // ----- Cache PDFs using Service Worker -----
+  function cachePDFs(pdfUrls) {
+    if (pdfUrls.length === 0) {
+      console.log('📄 No PDFs found on this page');
+      return;
+    }
+    
+    console.log(`📄 Found ${pdfUrls.length} PDF(s) to cache:`, pdfUrls);
+    
+    // If Service Worker is active, send message to cache PDFs
+    if (navigator.serviceWorker && navigator.serviceWorker.controller) {
+      navigator.serviceWorker.controller.postMessage({
+        type: 'CACHE_PDFS',
+        urls: pdfUrls
+      });
+      console.log('📦 Sending PDF cache request to Service Worker');
+    } else {
+      // Fallback: Prefetch PDFs using fetch
+      pdfUrls.forEach(url => {
+        fetch(url)
+          .then(response => {
+            if (response.ok) {
+              console.log(`✅ PDF cached: ${url}`);
+              // Store in Cache API directly
+              if ('caches' in window) {
+                caches.open('pdf-cache-v1').then(cache => {
+                  cache.put(url, response.clone());
+                });
+              }
+            }
+          })
+          .catch(err => console.log(`⚠️ Could not cache PDF: ${url}`, err));
+      });
+    }
+  }
+
+  // ----- Check for PDFs when page loads -----
+  function scanAndCachePDFs() {
+    const pdfs = findAllPDFs();
+    if (pdfs.length > 0) {
+      cachePDFs(pdfs);
+    }
+  }
+
+  // ----- Run on page load -----
+  if (document.readyState === 'complete') {
+    scanAndCachePDFs();
+  } else {
+    window.addEventListener('load', scanAndCachePDFs);
+  }
+
+  // ----- Also scan when DOM changes (for dynamic content) -----
+  if (window.MutationObserver) {
+    const observer = new MutationObserver(function() {
+      scanAndCachePDFs();
+    });
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  }
+
+  // ----- Status indicator for users -----
+  const statusEl = document.createElement('div');
+  statusEl.id = 'pdf-status';
+  statusEl.style.cssText = `
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 999999;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    display: none;
+    border: 2px solid #000;
+    background: #8b5cf6;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 4px 4px 0px 0px #000;
+  `;
+  document.body.appendChild(statusEl);
+
+  function showPDFStatus(message) {
+    statusEl.textContent = '📄 ' + message;
+    statusEl.style.display = 'block';
+    setTimeout(() => { statusEl.style.display = 'none'; }, 4000);
+  }
+
+  // Show status if PDFs are cached
+  setTimeout(() => {
+    const pdfs = findAllPDFs();
+    if (pdfs.length > 0) {
+      showPDFStatus(`${pdfs.length} PDF(s) cached for offline`);
+    }
+  }, 3000);
+
+  console.log('✅ PDF Offline Cacher ready!');
+})();
+</script>
+    
+
     
 </body>
 </html>
