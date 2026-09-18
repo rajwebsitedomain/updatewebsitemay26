@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy · Rajvardhan Singh Badgujar</title>
+    <meta name="description" content="Privacy Policy for Rajvardhan Singh Badgujar's portfolio and services. Learn how your data is collected, used, and protected.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.rajvardhansingh.in/privacy">
+    <meta name="theme-color" content="#0f172a">
+
+    <!-- Fonts & Tailwind (same as main site) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&display=block" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Space Grotesk', 'sans-serif'] },
+                    colors: {
+                        neo: { bg: '#FFFDF5', accent: '#FF6B6B', secondary: '#FFD93D', muted: '#C4B5FD' }
+                    },
+                    boxShadow: {
+                        'neo-sm': '4px 4px 0px 0px #000',
+                        'neo-md': '8px 8px 0px 0px #000',
+                        'neo-lg': '12px 12px 0px 0px #000',
+                        'neo-xl': '16px 16px 0px 0px #000',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #FFFDF5;
+            overflow-x: hidden;
+        }
+        .grid-bg {
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, rgba(0,0,0,0.06) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(0,0,0,0.06) 1px, transparent 1px);
+        }
+        .text-stroke {
+            -webkit-text-stroke: 2px #000;
+            color: transparent;
+        }
+        .text-stroke-white {
+            -webkit-text-stroke: 2px #FFFDF5;
+            color: transparent;
+        }
+        ::selection {
+            background-color: #FF6B6B;
+            color: #000;
+        }
+    </style>
+</head>
+<body class="bg-neo-bg text-black font-sans font-bold">
+
+    <!-- NAVIGATION (simplified, same style) -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-neo-bg border-b-4 border-black shadow-neo-sm transition-all duration-200">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="/" class="bg-neo-accent border-4 border-black px-6 py-3 shadow-neo-sm font-black text-xl uppercase tracking-tight hover:-translate-y-1 hover:shadow-neo-md transition-all duration-100 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none inline-flex items-center gap-2">
+                <span class="text-2xl">⚡</span>RSB
+            </a>
+            <div class="hidden lg:flex items-center gap-2">
+                <a href="/#work" class="font-bold uppercase text-sm tracking-wider px-4 py-2 border-2 border-transparent hover:border-black hover:bg-neo-secondary hover:shadow-neo-sm hover:-translate-y-0.5 transition-all duration-100">Work</a>
+                <a href="/#about" class="font-bold uppercase text-sm tracking-wider px-4 py-2 border-2 border-transparent hover:border-black hover:bg-neo-secondary hover:shadow-neo-sm hover:-translate-y-0.5 transition-all duration-100">About</a>
+                <a href="/#skills" class="font-bold uppercase text-sm tracking-wider px-4 py-2 border-2 border-transparent hover:border-black hover:bg-neo-secondary hover:shadow-neo-sm hover:-translate-y-0.5 transition-all duration-100">Skills</a>
+                <a href="/#projects" class="font-bold uppercase text-sm tracking-wider px-4 py-2 border-2 border-transparent hover:border-black hover:bg-neo-secondary hover:shadow-neo-sm hover:-translate-y-0.5 transition-all duration-100">Projects</a>
+                <a href="/#contact" class="bg-black text-white border-4 border-black px-6 py-3 shadow-neo-sm font-black text-sm uppercase tracking-widest hover:-translate-y-1 hover:shadow-neo-md transition-all duration-100 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none">Let's Talk</a>
+                <a href="rajcv.pdf" download="Rajvardhan_Singh_CV.pdf" class="bg-neo-secondary text-black border-4 border-black px-6 py-3 shadow-neo-sm font-black text-sm uppercase tracking-widest hover:bg-yellow-400 hover:-translate-y-1 hover:shadow-neo-md transition-all duration-100 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none inline-flex items-center gap-2 ml-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                    Download CV
+                </a>
+            </div>
+            <button id="mobile-menu-btn" class="lg:hidden bg-white border-4 border-black p-3 shadow-neo-sm active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all duration-100" aria-label="Open menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU (same) -->
+    <div id="mobile-menu" class="fixed inset-0 z-40 bg-neo-bg translate-x-full transition-transform duration-300 ease-out pt-20 px-4">
+        <button id="close-menu-btn" class="absolute top-4 right-4 bg-neo-accent border-4 border-black p-3 shadow-neo-sm active:translate-x-[2px] active:translate-y-[2px] active:shadow-none" aria-label="Close menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <div class="flex flex-col gap-4 max-w-md mx-auto">
+            <a href="/#work" class="mobile-link bg-white border-4 border-black p-6 shadow-neo-md text-2xl font-black uppercase tracking-tight hover:bg-neo-accent transition-colors duration-100">⚡ Work</a>
+            <a href="/#about" class="mobile-link bg-white border-4 border-black p-6 shadow-neo-md text-2xl font-black uppercase tracking-tight hover:bg-neo-secondary transition-colors duration-100">👤 About</a>
+            <a href="/#skills" class="mobile-link bg-white border-4 border-black p-6 shadow-neo-md text-2xl font-black uppercase tracking-tight hover:bg-neo-muted transition-colors duration-100">🛠️ Skills</a>
+            <a href="/#projects" class="mobile-link bg-white border-4 border-black p-6 shadow-neo-md text-2xl font-black uppercase tracking-tight hover:bg-neo-accent transition-colors duration-100">🚀 Projects</a>
+            <a href="/#contact" class="mobile-link bg-black text-white border-4 border-black p-6 shadow-neo-md text-2xl font-black uppercase tracking-tight">📬 Contact</a>
+            <a href="rajcv.pdf" download="Rajvardhan_Singh_CV.pdf" class="mobile-link bg-neo-secondary text-black border-4 border-black p-6 shadow-neo-md text-2xl font-black uppercase tracking-tight hover:bg-yellow-400 transition-colors duration-100 flex items-center justify-center gap-3">📄 Download CV</a>
+        </div>
+    </div>
+
+    <!-- PRIVACY POLICY CONTENT -->
+    <main class="relative min-h-screen pt-32 pb-24 md:pt-40 md:pb-32">
+        <div class="absolute inset-0 grid-bg"></div>
+        <div class="container mx-auto px-4 relative z-10 max-w-4xl">
+            <!-- Header -->
+            <div class="mb-12">
+                <div class="inline-block bg-neo-accent border-4 border-black px-6 py-2 shadow-neo-sm -rotate-2 mb-8">
+                    <span class="font-black uppercase tracking-widest text-sm">Legal</span>
+                </div>
+                <h1 class="text-6xl sm:text-7xl md:text-8xl font-black uppercase leading-[0.85] tracking-tighter mb-6">
+                    <span class="text-stroke">Privacy</span>
+                    <span class="block bg-neo-secondary px-6 border-4 border-black inline-block shadow-neo-md rotate-1 mt-2">Policy</span>
+                </h1>
+                <p class="text-xl md:text-2xl font-bold text-black/80 mt-8">
+                    Last updated: <span class="bg-neo-muted px-2 border-2 border-black">April 2026</span>
+                </p>
+            </div>
+
+            <!-- Content Cards -->
+            <div class="space-y-10">
+
+                <!-- 1. Overview -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">1. Overview</h2>
+                    <p class="text-lg font-bold leading-relaxed">
+                        This Privacy Policy describes how Rajvardhan Singh Badgujar ("I", "me", "my") collects, uses, and protects your personal information when you visit 
+                        <span class="bg-neo-secondary px-1 border-2 border-black">rajvardhansingh.in</span> or engage with my services. 
+                        I respect your privacy and am committed to protecting your personal data.
+                    </p>
+                </section>
+
+                <!-- 2. Information I Collect -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">2. Information I Collect</h2>
+                    <ul class="space-y-4 text-lg font-bold">
+                        <li class="flex items-start gap-3">
+                            <span class="bg-neo-accent border-2 border-black px-2 py-1 text-sm font-black mt-1">✓</span>
+                            <span><strong>Contact form data:</strong> Name, email address, subject, and message content you voluntarily submit.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-neo-accent border-2 border-black px-2 py-1 text-sm font-black mt-1">✓</span>
+                            <span><strong>Visitor information (automatic):</strong> IP address, city, region, country, timezone, organisation, and browser user agent — collected only when you submit the contact form to help me understand who is reaching out.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-neo-accent border-2 border-black px-2 py-1 text-sm font-black mt-1">✓</span>
+                            <span><strong>Usage data:</strong> Anonymous analytics about pages visited, time spent, and referral sources via Cloudflare Insights (no personal identifiers).</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 3. How I Use Your Information -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">3. How I Use Your Information</h2>
+                    <ul class="space-y-4 text-lg font-bold">
+                        <li class="flex items-start gap-3">
+                            <span class="bg-neo-secondary border-2 border-black px-2 py-1 text-sm font-black mt-1">→</span>
+                            <span>To respond to your enquiries, project requests, or collaboration proposals.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-neo-secondary border-2 border-black px-2 py-1 text-sm font-black mt-1">→</span>
+                            <span>To improve my website, services, and user experience.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-neo-secondary border-2 border-black px-2 py-1 text-sm font-black mt-1">→</span>
+                            <span>To send occasional updates about my work (only if you explicitly opt in — I don't send spam).</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-neo-secondary border-2 border-black px-2 py-1 text-sm font-black mt-1">→</span>
+                            <span>To comply with legal obligations, if any.</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 4. Data Sharing & Third Parties -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">4. Data Sharing & Third Parties</h2>
+                    <p class="text-lg font-bold leading-relaxed mb-4">
+                        I do <span class="bg-neo-accent px-1 border-2 border-black">not sell, trade, or rent</span> your personal information. 
+                        However, I use trusted third-party services that may process data:
+                    </p>
+                    <ul class="space-y-3 text-lg font-bold">
+                        <li class="flex items-start gap-3">
+                            <span class="bg-black text-white px-2 py-1 text-sm font-black mt-1">Web3Forms</span>
+                            <span>Contact form submissions are processed via Web3Forms and delivered to my email. Their privacy policy applies.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-black text-white px-2 py-1 text-sm font-black mt-1">ipapi.co</span>
+                            <span>Visitor IP and location data are fetched via ipapi.co solely when you submit the contact form. No persistent storage on their end is initiated by me.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="bg-black text-white px-2 py-1 text-sm font-black mt-1">Cloudflare</span>
+                            <span>Cloudflare Insights provides anonymous analytics. No personal data is stored.</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- 5. Data Retention -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">5. Data Retention</h2>
+                    <p class="text-lg font-bold leading-relaxed">
+                        Contact form submissions are retained in my email inbox only for as long as necessary to address your enquiry or maintain a professional relationship. 
+                        You may request deletion at any time by emailing me directly.
+                    </p>
+                </section>
+
+                <!-- 6. Your Rights -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">6. Your Rights</h2>
+                    <p class="text-lg font-bold leading-relaxed mb-4">Depending on your jurisdiction, you have the right to:</p>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-lg font-bold">
+                        <li class="flex items-center gap-2"><span class="bg-neo-muted border-2 border-black px-2 py-1 text-sm font-black">✓</span> Access your data</li>
+                        <li class="flex items-center gap-2"><span class="bg-neo-muted border-2 border-black px-2 py-1 text-sm font-black">✓</span> Rectify inaccurate data</li>
+                        <li class="flex items-center gap-2"><span class="bg-neo-muted border-2 border-black px-2 py-1 text-sm font-black">✓</span> Request deletion</li>
+                        <li class="flex items-center gap-2"><span class="bg-neo-muted border-2 border-black px-2 py-1 text-sm font-black">✓</span> Withdraw consent</li>
+                        <li class="flex items-center gap-2"><span class="bg-neo-muted border-2 border-black px-2 py-1 text-sm font-black">✓</span> Lodge a complaint</li>
+                        <li class="flex items-center gap-2"><span class="bg-neo-muted border-2 border-black px-2 py-1 text-sm font-black">✓</span> Data portability</li>
+                    </ul>
+                    <p class="text-lg font-bold mt-4">To exercise any right, email <span class="bg-neo-secondary px-2 border-2 border-black">rajvardhancoder@gmail.com</span>.</p>
+                </section>
+
+                <!-- 7. Cookies & Tracking -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">7. Cookies & Tracking</h2>
+                    <p class="text-lg font-bold leading-relaxed">
+                        This website does <span class="bg-neo-accent px-1 border-2 border-black">not use cookies</span> for tracking or advertising. 
+                        Cloudflare may set a functional cookie for security and performance (e.g., bot protection). No personal data is extracted.
+                    </p>
+                </section>
+
+                <!-- 8. Security -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">8. Security</h2>
+                    <p class="text-lg font-bold leading-relaxed">
+                        I implement reasonable technical and organisational measures to protect your data, including HTTPS encryption, secure form submission, 
+                        and minimal data collection. However, no internet transmission is 100% secure — please share sensitive information cautiously.
+                    </p>
+                </section>
+
+                <!-- 9. Children's Privacy -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">9. Children's Privacy</h2>
+                    <p class="text-lg font-bold leading-relaxed">
+                        My services are not directed to individuals under 16. I do not knowingly collect personal information from children. 
+                        If you believe a child has provided me data, contact me and I will delete it promptly.
+                    </p>
+                </section>
+
+                <!-- 10. Changes to This Policy -->
+                <section class="bg-white border-4 border-black p-8 shadow-neo-md hover:shadow-neo-lg transition-all duration-200">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block">10. Changes to This Policy</h2>
+                    <p class="text-lg font-bold leading-relaxed">
+                        I may update this Privacy Policy from time to time. The "Last updated" date at the top will reflect any changes. 
+                        Continued use of the site after changes constitutes acceptance of the revised policy.
+                    </p>
+                </section>
+
+                <!-- 11. Contact -->
+                <section class="bg-neo-accent border-4 border-black p-8 shadow-neo-lg">
+                    <h2 class="text-3xl font-black uppercase mb-4 border-b-4 border-black pb-2 inline-block text-white">11. Contact</h2>
+                    <p class="text-lg font-bold text-white leading-relaxed">
+                        For any privacy-related questions, reach out at:
+                    </p>
+                    <div class="mt-4 flex flex-col sm:flex-row gap-4">
+                        <a href="mailto:rajvardhancoder@gmail.com" class="bg-white text-black border-4 border-black px-6 py-3 shadow-neo-sm font-black uppercase tracking-widest text-sm hover:-translate-y-1 hover:shadow-neo-md transition-all duration-100 inline-flex items-center justify-center gap-2">
+                            ✉️ rajvardhancoder@gmail.com
+                        </a>
+                        <a href="/#contact" class="bg-black text-white border-4 border-black px-6 py-3 shadow-neo-sm font-black uppercase tracking-widest text-sm hover:-translate-y-1 hover:shadow-neo-md transition-all duration-100 inline-flex items-center justify-center gap-2">
+                            📬 Contact Page
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Back to Home -->
+            <div class="mt-16 text-center">
+                <a href="/" class="inline-flex items-center gap-3 bg-black text-white border-4 border-black px-8 py-4 shadow-neo-md font-black uppercase tracking-widest text-sm hover:-translate-y-2 hover:shadow-neo-lg transition-all duration-100 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                    Back to Portfolio
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER (simplified but consistent) -->
+    <footer class="bg-black text-white border-t-4 border-black py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-2">
+                    <a href="/" class="bg-neo-accent text-black border-4 border-white inline-block px-6 py-3 shadow-neo-sm font-black text-xl uppercase tracking-tight mb-6">RS. ☁️</a>
+                    <p class="font-bold leading-relaxed mt-4 max-w-md">Cloud & DevOps Engineer crafting scalable, automated infrastructure. Building the future, one pipeline at a time.</p>
+                    <div class="flex gap-4 mt-6">
+                        <a href="https://github.com/singhrajvardhan" target="_blank" class="bg-white text-black border-4 border-white p-3 shadow-neo-sm hover:-translate-y-2 hover:shadow-neo-md hover:bg-neo-accent transition-all duration-100" aria-label="GitHub">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 2.618-.322 1.612 0 2.639 1.264 2.639 1.264.791 2.166 2.07 1.544 3.233 1.235.137-1.017.556-1.704 1.012-2.096-3.533-.4-7.245-1.767-7.245-7.862 0-1.737.62-3.163 1.635-4.272-.166-.403-.712-2.032.156-4.24 0 0 1.351-.432 4.424-1.676C12.146 1.556 13.21 1.5 14.28 1.5c1.07 0 2.136.056 3.276.264 3.072 1.244 4.422 1.676 4.422 1.676.868 2.208.322 3.837.156 4.24 1.015 1.109 1.635 2.535 1.635 4.272 0 6.11-3.718 7.462-7.257 7.856.574.494 1.087 1.473 1.087 2.971v4.387c0 .319.194.694.8.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/rajvardhan" target="_blank" class="bg-white text-black border-4 border-white p-3 shadow-neo-sm hover:-translate-y-2 hover:shadow-neo-md hover:bg-neo-secondary transition-all duration-100" aria-label="LinkedIn">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                        <a href="https://instagram.com/webbyraj" target="_blank" class="bg-white text-black border-4 border-white p-3 shadow-neo-sm hover:-translate-y-2 hover:shadow-neo-md hover:bg-neo-muted transition-all duration-100" aria-label="Instagram">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-black uppercase tracking-widest text-sm mb-6">Quick Links</h4>
+                    <div class="flex flex-col gap-3">
+                        <a href="/#about" class="font-bold hover:text-neo-accent hover:translate-x-2 transition-all duration-100 inline-flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>About</a>
+                        <a href="/#skills" class="font-bold hover:text-neo-accent hover:translate-x-2 transition-all duration-100 inline-flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Skills</a>
+                        <a href="/#projects" class="font-bold hover:text-neo-accent hover:translate-x-2 transition-all duration-100 inline-flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Projects</a>
+                        <a href="/#contact" class="font-bold hover:text-neo-accent hover:translate-x-2 transition-all duration-100 inline-flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-black uppercase tracking-widest text-sm mb-6">Contact</h4>
+                    <div class="flex flex-col gap-3">
+                        <span class="font-bold">📧 rajvardhancoder@gmail.com</span>
+                        <span class="font-bold">📱 +91 97702 89936</span>
+                        <span class="font-bold">📍 Indore, Madhya Pradesh</span>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t-2 border-white/20 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="font-bold text-sm uppercase tracking-widest">© 2026 Rajvardhan Singh Badgujar. All rights reserved.</p>
+                <p class="font-bold text-sm uppercase tracking-widest">Built with ❤️ and too much coffee ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts (menu toggle only) -->
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const closeMenuBtn = document.getElementById('close-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        function openMenu() { mobileMenu.classList.remove('translate-x-full'); mobileMenu.classList.add('translate-x-0'); document.body.style.overflow = 'hidden'; }
+        function closeMenu() { mobileMenu.classList.add('translate-x-full'); mobileMenu.classList.remove('translate-x-0'); document.body.style.overflow = ''; }
+        mobileMenuBtn.addEventListener('click', openMenu);
+        closeMenuBtn.addEventListener('click', closeMenu);
+        mobileLinks.forEach(link => link.addEventListener('click', closeMenu));
+    </script>
+  <script src="https://thikanadhabla.in/track.js" defer></script>
+
+</body>
+</html>
